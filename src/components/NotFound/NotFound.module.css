@@ -1,0 +1,38 @@
+.container {
+    text-align: center;
+}
+.error_type {
+    font-weight: 700;
+    font-size: 288px;
+    display: block;
+    margin: auto;
+    color: #FF6060;
+}
+.error_desc {
+    display: block;
+    margin: 66px auto 182px auto;
+    color: #FF6060;
+}
+
+.homelink {
+    display: block;
+    margin-bottom: 160px;
+}
+.homelink a {
+    font-size: 18px;
+    color: #FF6060;
+}
+
+@media only screen and (max-width: 767px) {
+    .error_type {
+        font-size: 96px;
+        margin-top: 175px;
+    }
+    .error_desc {
+        margin: 11px auto 133px auto;
+    }
+    .homelink a {
+        font-size: 14px;
+    }
+  }
+

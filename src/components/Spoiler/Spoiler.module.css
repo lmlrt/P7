@@ -1,0 +1,63 @@
+.spoil {
+    display: inline-block;
+    font-size: 18px;
+    color: #FF6060;
+    margin: 0px 30px 0px 30px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.spoil ul {
+    background-color: #F7F7F7;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px;
+    list-style-type:none;
+    margin: 0;
+}
+.spoil ol {
+    margin: 0;
+    padding: 0;
+}
+.spoil summary {
+    background: #FF6060;
+    width: calc(100% - 16px);
+    height: 48px;
+    line-height: 48px;
+    color: white;
+    display: block;
+    border-radius: 5px;
+    font-size: 18px;
+    position: relative;
+    padding-left: 1em;
+}
+
+.spoil summary svg {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    transition: 1s transform;
+}
+
+.spoil summary::-webkit-details-marker {
+    display: none;
+}
+
+details[open]>summary svg {
+    transform: rotateX(180deg);
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+   .spoil {
+    width: 90% !important;
+        margin:0px 5% 15px 5%;
+        font-size: 12px;
+    }
+    .spoil summary {
+        font-size: 13px;
+    }
+
+    
+  }

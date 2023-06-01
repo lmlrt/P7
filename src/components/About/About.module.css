@@ -1,0 +1,14 @@
+.spoilerContainer {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.spoilerContainer > * {
+  text-align: left;
+}
+@media only screen and (max-width: 767px) {
+  .spoilerContainer {
+      width:100%;
+      min-height: calc(100vh - 500px);
+  }
+}

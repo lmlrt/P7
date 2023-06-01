@@ -1,0 +1,30 @@
+.banner {
+    color: white;
+    margin: auto;
+    margin-bottom: 2em;
+    width: 80%;
+    height: 225px;
+    border-radius: 25px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bannerText {
+    text-align: center;
+    font-size: 48px;
+    display: inline-block;
+    max-width: 80%;
+}
+@media only screen and (max-width: 767px) {
+    .banner {
+        width:calc(80% - 32px);
+        padding: 0 16px 0 16px;
+        height: 110px;
+    }
+    .bannerText {
+        text-align: left;
+        font-size: 24px;
+    }
+  }

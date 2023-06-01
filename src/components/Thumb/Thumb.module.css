@@ -1,0 +1,23 @@
+.thumb {
+    color: white;
+    width: 340px;
+    height: 340px;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    margin: 1em auto 1em auto;
+}
+.thumb .label {
+    width: 300px;
+    margin: auto;
+    position: absolute;
+    bottom:25px;
+    left: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+    .thumb {
+        width:335px;
+        height: 255px;
+    }
+  }
